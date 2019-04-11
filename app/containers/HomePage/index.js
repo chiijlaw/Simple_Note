@@ -11,7 +11,6 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import H1 from 'components/H1';
 import H2 from 'components/H2';
 import H3 from 'components/H3';
 import messages from './messages';
@@ -22,9 +21,6 @@ export default class HomePage extends React.PureComponent {
   render() {
     return (
       <FlexCol>
-        <H1>
-          <FormattedMessage {...messages.header} />
-        </H1>
         <H2>
           <FormattedMessage {...messages.insertHeader} />
         </H2>
